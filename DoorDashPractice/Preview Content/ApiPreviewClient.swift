@@ -7,10 +7,10 @@
 
 import Foundation
 
-class ApiPreviewClient: ApiServiceConfigurable {
-    func request<T>(resounrce: ServiceResource<T>) async throws -> T where T : Decodable {
+struct ApiPreviewClient: ApiServiceConfigurable {
+    func request<T>(resource: ServiceResource<T>) async throws -> T where T : Decodable {
         do {
-            return try stubData(with: resounrce.endPoint.urlString)
+            return try stubData(with: resource.endPoint.urlString)
         } catch {
             throw error
         }
@@ -20,19 +20,19 @@ class ApiPreviewClient: ApiServiceConfigurable {
         let data: Data
         
         guard let file = Bundle.main.url(forResource: fileName, withExtension: "json") else {
-            fatalError("Coundn't find \(fileName) in main bundle")
+            throw APIError.incorrectBaseUrl
         }
         
         do {
             data = try Data(contentsOf: file)
         } catch {
-            fatalError("Couldn't load \(fileName) from main bundle:\n\(error)")
+            throw APIError.failedRequest
         }
         
         do {
             let jsonDecoder = JSONDecoder()
             jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
-            return try jsonDecoder.decode(T.self, from: data)
+            return try! jsonDecoder.decode(T.self, from: data)
         } catch {
             throw APIError.failedDecoding
         }

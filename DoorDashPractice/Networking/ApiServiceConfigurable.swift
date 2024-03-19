@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol ApiServiceConfigurable {
+    func request<T: Decodable>(resource: ServiceResource<T>) async throws -> T
+}

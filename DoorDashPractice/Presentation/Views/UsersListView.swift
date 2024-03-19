@@ -1,14 +1,21 @@
 import SwiftUI
 
-struct ContentView: View {
+struct UserListView: View {
+    @StateObject var viewModel: FetchRandomPersonViewModel
+    
     var body: some View {
-        VStack {
-            Text("Hello, world!")
+        List(viewModel.results, id: \.email) { content in
+            RowView(userName: content.name, phoneNumber: content.phone, email: content.email)
         }
-        .padding()
+        .onAppear {
+            Task {
+                await viewModel.fetchRandomPeople()
+            }
+        }
     }
 }
 
 #Preview {
-    ContentView()
+    UserListView(viewModel: FetchRandomPersonViewModel(apiServiceClient: ApiPreviewClient(),
+                                                       serviceResource: ServiceResource(endPoint: MockAPIEndpoint.fetchRandomUsers)))
 }

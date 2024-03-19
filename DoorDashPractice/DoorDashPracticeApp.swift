@@ -11,7 +11,7 @@ import SwiftUI
 struct DoorDashPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UserListView(viewModel: FetchRandomPersonViewModel(serviceResource: ServiceResource(endPoint: APIEndpoint.fetchRandomUsers)))
         }
     }
 }

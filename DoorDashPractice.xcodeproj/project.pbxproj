@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2DFFADB12BA9262C0093D973 /* DoorDashPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADB02BA9262C0093D973 /* DoorDashPracticeApp.swift */; };
-		2DFFADB32BA9262C0093D973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADB22BA9262C0093D973 /* ContentView.swift */; };
+		2DFFADB32BA9262C0093D973 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADB22BA9262C0093D973 /* UsersListView.swift */; };
 		2DFFADB52BA9262D0093D973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFADB42BA9262D0093D973 /* Assets.xcassets */; };
 		2DFFADB82BA9262D0093D973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFADB72BA9262D0093D973 /* Preview Assets.xcassets */; };
-		2DFFADC22BA9262D0093D973 /* DoorDashPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADC12BA9262D0093D973 /* DoorDashPracticeTests.swift */; };
 		2DFFADCC2BA9262D0093D973 /* DoorDashPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADCB2BA9262D0093D973 /* DoorDashPracticeUITests.swift */; };
 		2DFFADCE2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADCD2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift */; };
+		2DFFADDF2BA92D680093D973 /* RandomUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADDE2BA92D680093D973 /* RandomUserModel.swift */; };
+		2DFFADE12BA92F3E0093D973 /* ApiServiceConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADE02BA92F3E0093D973 /* ApiServiceConfigurable.swift */; };
+		2DFFADE32BA92F740093D973 /* ServiceResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADE22BA92F740093D973 /* ServiceResource.swift */; };
+		2DFFADE62BA92F910093D973 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADE52BA92F910093D973 /* HTTPMethod.swift */; };
+		2DFFADE92BA930310093D973 /* EndpointConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADE82BA930310093D973 /* EndpointConfigurable.swift */; };
+		2DFFADEB2BA930500093D973 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADEA2BA930500093D973 /* APIError.swift */; };
+		2DFFADED2BA930C40093D973 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADEC2BA930C40093D973 /* APIEndpoint.swift */; };
+		2DFFADEF2BA931140093D973 /* ApiPreviewClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADEE2BA931140093D973 /* ApiPreviewClient.swift */; };
+		2DFFADF22BA932290093D973 /* randomPeople.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFADF12BA932290093D973 /* randomPeople.json */; };
+		2DFFADF42BA932860093D973 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADF32BA932860093D973 /* ApiClientTests.swift */; };
+		2DFFADF62BA937110093D973 /* FetchRandomPersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADF52BA937110093D973 /* FetchRandomPersonViewModel.swift */; };
+		2DFFADFB2BA93BE10093D973 /* ApiServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADFA2BA93BE10093D973 /* ApiServiceClient.swift */; };
+		2DFFADFF2BA93C320093D973 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADFE2BA93C320093D973 /* RowView.swift */; };
+		2DFFAE012BA9406B0093D973 /* MockApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFAE002BA9406B0093D973 /* MockApiEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +49,27 @@
 /* Begin PBXFileReference section */
 		2DFFADAD2BA9262C0093D973 /* DoorDashPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDashPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFFADB02BA9262C0093D973 /* DoorDashPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashPracticeApp.swift; sourceTree = "<group>"; };
-		2DFFADB22BA9262C0093D973 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DFFADB22BA9262C0093D973 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 		2DFFADB42BA9262D0093D973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFFADB72BA9262D0093D973 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DFFADBD2BA9262D0093D973 /* DoorDashPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorDashPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DFFADC12BA9262D0093D973 /* DoorDashPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashPracticeTests.swift; sourceTree = "<group>"; };
 		2DFFADC72BA9262D0093D973 /* DoorDashPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorDashPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFFADCB2BA9262D0093D973 /* DoorDashPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashPracticeUITests.swift; sourceTree = "<group>"; };
 		2DFFADCD2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DFFADDE2BA92D680093D973 /* RandomUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserModel.swift; sourceTree = "<group>"; };
+		2DFFADE02BA92F3E0093D973 /* ApiServiceConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceConfigurable.swift; sourceTree = "<group>"; };
+		2DFFADE22BA92F740093D973 /* ServiceResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResource.swift; sourceTree = "<group>"; };
+		2DFFADE52BA92F910093D973 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		2DFFADE82BA930310093D973 /* EndpointConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointConfigurable.swift; sourceTree = "<group>"; };
+		2DFFADEA2BA930500093D973 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		2DFFADEC2BA930C40093D973 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		2DFFADEE2BA931140093D973 /* ApiPreviewClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPreviewClient.swift; sourceTree = "<group>"; };
+		2DFFADF12BA932290093D973 /* randomPeople.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = randomPeople.json; sourceTree = "<group>"; };
+		2DFFADF32BA932860093D973 /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
+		2DFFADF52BA937110093D973 /* FetchRandomPersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRandomPersonViewModel.swift; sourceTree = "<group>"; };
+		2DFFADFA2BA93BE10093D973 /* ApiServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceClient.swift; sourceTree = "<group>"; };
+		2DFFADFE2BA93C320093D973 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		2DFFAE002BA9406B0093D973 /* MockApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				2DFFADB02BA9262C0093D973 /* DoorDashPracticeApp.swift */,
-				2DFFADB22BA9262C0093D973 /* ContentView.swift */,
 				2DFFADB42BA9262D0093D973 /* Assets.xcassets */,
+				2DFFADDA2BA92CA60093D973 /* Models */,
+				2DFFADDB2BA92CAC0093D973 /* Networking */,
+				2DFFADDC2BA92CB00093D973 /* Presentation */,
 				2DFFADB62BA9262D0093D973 /* Preview Content */,
 			);
 			path = DoorDashPractice;
@@ -105,7 +133,10 @@
 		2DFFADB62BA9262D0093D973 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2DFFADEE2BA931140093D973 /* ApiPreviewClient.swift */,
+				2DFFAE002BA9406B0093D973 /* MockApiEndpoint.swift */,
 				2DFFADB72BA9262D0093D973 /* Preview Assets.xcassets */,
+				2DFFADF02BA932130093D973 /* Stubs */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -113,7 +144,7 @@
 		2DFFADC02BA9262D0093D973 /* DoorDashPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				2DFFADC12BA9262D0093D973 /* DoorDashPracticeTests.swift */,
+				2DFFADF32BA932860093D973 /* ApiClientTests.swift */,
 			);
 			path = DoorDashPracticeTests;
 			sourceTree = "<group>";
@@ -125,6 +156,78 @@
 				2DFFADCD2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift */,
 			);
 			path = DoorDashPracticeUITests;
+			sourceTree = "<group>";
+		};
+		2DFFADDA2BA92CA60093D973 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADDE2BA92D680093D973 /* RandomUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2DFFADDB2BA92CAC0093D973 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADE72BA92FB10093D973 /* Protocols */,
+				2DFFADE42BA92F7E0093D973 /* Enum */,
+				2DFFADE22BA92F740093D973 /* ServiceResource.swift */,
+				2DFFADFA2BA93BE10093D973 /* ApiServiceClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2DFFADDC2BA92CB00093D973 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADF72BA9387A0093D973 /* Views */,
+				2DFFADDD2BA92CBA0093D973 /* ViewModels */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2DFFADDD2BA92CBA0093D973 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADF52BA937110093D973 /* FetchRandomPersonViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2DFFADE42BA92F7E0093D973 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADE52BA92F910093D973 /* HTTPMethod.swift */,
+				2DFFADEA2BA930500093D973 /* APIError.swift */,
+				2DFFADEC2BA930C40093D973 /* APIEndpoint.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		2DFFADE72BA92FB10093D973 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADE02BA92F3E0093D973 /* ApiServiceConfigurable.swift */,
+				2DFFADE82BA930310093D973 /* EndpointConfigurable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		2DFFADF02BA932130093D973 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADF12BA932290093D973 /* randomPeople.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		2DFFADF72BA9387A0093D973 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADB22BA9262C0093D973 /* UsersListView.swift */,
+				2DFFADFE2BA93C320093D973 /* RowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +301,7 @@
 					};
 					2DFFADBC2BA9262D0093D973 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 						TestTargetID = 2DFFADAC2BA9262C0093D973;
 					};
 					2DFFADC62BA9262D0093D973 = {
@@ -232,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFFADB82BA9262D0093D973 /* Preview Assets.xcassets in Resources */,
+				2DFFADF22BA932290093D973 /* randomPeople.json in Resources */,
 				2DFFADB52BA9262D0093D973 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +362,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFFADB32BA9262C0093D973 /* ContentView.swift in Sources */,
+				2DFFADB32BA9262C0093D973 /* UsersListView.swift in Sources */,
+				2DFFADFF2BA93C320093D973 /* RowView.swift in Sources */,
+				2DFFADED2BA930C40093D973 /* APIEndpoint.swift in Sources */,
+				2DFFADDF2BA92D680093D973 /* RandomUserModel.swift in Sources */,
+				2DFFADFB2BA93BE10093D973 /* ApiServiceClient.swift in Sources */,
+				2DFFADE62BA92F910093D973 /* HTTPMethod.swift in Sources */,
 				2DFFADB12BA9262C0093D973 /* DoorDashPracticeApp.swift in Sources */,
+				2DFFADF62BA937110093D973 /* FetchRandomPersonViewModel.swift in Sources */,
+				2DFFADE92BA930310093D973 /* EndpointConfigurable.swift in Sources */,
+				2DFFADEF2BA931140093D973 /* ApiPreviewClient.swift in Sources */,
+				2DFFADEB2BA930500093D973 /* APIError.swift in Sources */,
+				2DFFADE12BA92F3E0093D973 /* ApiServiceConfigurable.swift in Sources */,
+				2DFFADE32BA92F740093D973 /* ServiceResource.swift in Sources */,
+				2DFFAE012BA9406B0093D973 /* MockApiEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFFADC22BA9262D0093D973 /* DoorDashPracticeTests.swift in Sources */,
+				2DFFADF42BA932860093D973 /* ApiClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +547,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +577,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +596,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TKB32CN29K;
@@ -486,6 +606,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.DoorDashPracticeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorDashPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoorDashPractice";
@@ -497,6 +618,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TKB32CN29K;
