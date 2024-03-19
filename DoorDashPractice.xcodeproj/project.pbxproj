@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DFFADB12BA9262C0093D973 /* DoorDashPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADB02BA9262C0093D973 /* DoorDashPracticeApp.swift */; };
+		2DFFADB32BA9262C0093D973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADB22BA9262C0093D973 /* ContentView.swift */; };
+		2DFFADB52BA9262D0093D973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFADB42BA9262D0093D973 /* Assets.xcassets */; };
+		2DFFADB82BA9262D0093D973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFADB72BA9262D0093D973 /* Preview Assets.xcassets */; };
+		2DFFADC22BA9262D0093D973 /* DoorDashPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADC12BA9262D0093D973 /* DoorDashPracticeTests.swift */; };
+		2DFFADCC2BA9262D0093D973 /* DoorDashPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADCB2BA9262D0093D973 /* DoorDashPracticeUITests.swift */; };
+		2DFFADCE2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFADCD2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DFFADBE2BA9262D0093D973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DFFADA52BA9262C0093D973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DFFADAC2BA9262C0093D973;
+			remoteInfo = DoorDashPractice;
+		};
+		2DFFADC82BA9262D0093D973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DFFADA52BA9262C0093D973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DFFADAC2BA9262C0093D973;
+			remoteInfo = DoorDashPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DFFADAD2BA9262C0093D973 /* DoorDashPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDashPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFFADB02BA9262C0093D973 /* DoorDashPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashPracticeApp.swift; sourceTree = "<group>"; };
+		2DFFADB22BA9262C0093D973 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DFFADB42BA9262D0093D973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DFFADB72BA9262D0093D973 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DFFADBD2BA9262D0093D973 /* DoorDashPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorDashPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFFADC12BA9262D0093D973 /* DoorDashPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashPracticeTests.swift; sourceTree = "<group>"; };
+		2DFFADC72BA9262D0093D973 /* DoorDashPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorDashPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFFADCB2BA9262D0093D973 /* DoorDashPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashPracticeUITests.swift; sourceTree = "<group>"; };
+		2DFFADCD2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DFFADAA2BA9262C0093D973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFADBA2BA9262D0093D973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFADC42BA9262D0093D973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DFFADA42BA9262C0093D973 = {
+			isa = PBXGroup;
+			children = (
+				2DFFADAF2BA9262C0093D973 /* DoorDashPractice */,
+				2DFFADC02BA9262D0093D973 /* DoorDashPracticeTests */,
+				2DFFADCA2BA9262D0093D973 /* DoorDashPracticeUITests */,
+				2DFFADAE2BA9262C0093D973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DFFADAE2BA9262C0093D973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADAD2BA9262C0093D973 /* DoorDashPractice.app */,
+				2DFFADBD2BA9262D0093D973 /* DoorDashPracticeTests.xctest */,
+				2DFFADC72BA9262D0093D973 /* DoorDashPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DFFADAF2BA9262C0093D973 /* DoorDashPractice */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADB02BA9262C0093D973 /* DoorDashPracticeApp.swift */,
+				2DFFADB22BA9262C0093D973 /* ContentView.swift */,
+				2DFFADB42BA9262D0093D973 /* Assets.xcassets */,
+				2DFFADB62BA9262D0093D973 /* Preview Content */,
+			);
+			path = DoorDashPractice;
+			sourceTree = "<group>";
+		};
+		2DFFADB62BA9262D0093D973 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADB72BA9262D0093D973 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DFFADC02BA9262D0093D973 /* DoorDashPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADC12BA9262D0093D973 /* DoorDashPracticeTests.swift */,
+			);
+			path = DoorDashPracticeTests;
+			sourceTree = "<group>";
+		};
+		2DFFADCA2BA9262D0093D973 /* DoorDashPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DFFADCB2BA9262D0093D973 /* DoorDashPracticeUITests.swift */,
+				2DFFADCD2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift */,
+			);
+			path = DoorDashPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DFFADAC2BA9262C0093D973 /* DoorDashPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFFADD12BA9262D0093D973 /* Build configuration list for PBXNativeTarget "DoorDashPractice" */;
+			buildPhases = (
+				2DFFADA92BA9262C0093D973 /* Sources */,
+				2DFFADAA2BA9262C0093D973 /* Frameworks */,
+				2DFFADAB2BA9262C0093D973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorDashPractice;
+			productName = DoorDashPractice;
+			productReference = 2DFFADAD2BA9262C0093D973 /* DoorDashPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DFFADBC2BA9262D0093D973 /* DoorDashPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFFADD42BA9262D0093D973 /* Build configuration list for PBXNativeTarget "DoorDashPracticeTests" */;
+			buildPhases = (
+				2DFFADB92BA9262D0093D973 /* Sources */,
+				2DFFADBA2BA9262D0093D973 /* Frameworks */,
+				2DFFADBB2BA9262D0093D973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFFADBF2BA9262D0093D973 /* PBXTargetDependency */,
+			);
+			name = DoorDashPracticeTests;
+			productName = DoorDashPracticeTests;
+			productReference = 2DFFADBD2BA9262D0093D973 /* DoorDashPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DFFADC62BA9262D0093D973 /* DoorDashPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFFADD72BA9262D0093D973 /* Build configuration list for PBXNativeTarget "DoorDashPracticeUITests" */;
+			buildPhases = (
+				2DFFADC32BA9262D0093D973 /* Sources */,
+				2DFFADC42BA9262D0093D973 /* Frameworks */,
+				2DFFADC52BA9262D0093D973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFFADC92BA9262D0093D973 /* PBXTargetDependency */,
+			);
+			name = DoorDashPracticeUITests;
+			productName = DoorDashPracticeUITests;
+			productReference = 2DFFADC72BA9262D0093D973 /* DoorDashPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DFFADA52BA9262C0093D973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2DFFADAC2BA9262C0093D973 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2DFFADBC2BA9262D0093D973 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2DFFADAC2BA9262C0093D973;
+					};
+					2DFFADC62BA9262D0093D973 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2DFFADAC2BA9262C0093D973;
+					};
+				};
+			};
+			buildConfigurationList = 2DFFADA82BA9262C0093D973 /* Build configuration list for PBXProject "DoorDashPractice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DFFADA42BA9262C0093D973;
+			productRefGroup = 2DFFADAE2BA9262C0093D973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DFFADAC2BA9262C0093D973 /* DoorDashPractice */,
+				2DFFADBC2BA9262D0093D973 /* DoorDashPracticeTests */,
+				2DFFADC62BA9262D0093D973 /* DoorDashPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DFFADAB2BA9262C0093D973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFFADB82BA9262D0093D973 /* Preview Assets.xcassets in Resources */,
+				2DFFADB52BA9262D0093D973 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFADBB2BA9262D0093D973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFADC52BA9262D0093D973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DFFADA92BA9262C0093D973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFFADB32BA9262C0093D973 /* ContentView.swift in Sources */,
+				2DFFADB12BA9262C0093D973 /* DoorDashPracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFADB92BA9262D0093D973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFFADC22BA9262D0093D973 /* DoorDashPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFFADC32BA9262D0093D973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFFADCC2BA9262D0093D973 /* DoorDashPracticeUITests.swift in Sources */,
+				2DFFADCE2BA9262D0093D973 /* DoorDashPracticeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DFFADBF2BA9262D0093D973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DFFADAC2BA9262C0093D973 /* DoorDashPractice */;
+			targetProxy = 2DFFADBE2BA9262D0093D973 /* PBXContainerItemProxy */;
+		};
+		2DFFADC92BA9262D0093D973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DFFADAC2BA9262C0093D973 /* DoorDashPractice */;
+			targetProxy = 2DFFADC82BA9262D0093D973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DFFADCF2BA9262D0093D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DFFADD02BA9262D0093D973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DFFADD22BA9262D0093D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DoorDashPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = TKB32CN29K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.DoorDashPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DFFADD32BA9262D0093D973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DoorDashPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = TKB32CN29K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.DoorDashPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DFFADD52BA9262D0093D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKB32CN29K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.DoorDashPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorDashPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoorDashPractice";
+			};
+			name = Debug;
+		};
+		2DFFADD62BA9262D0093D973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKB32CN29K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.DoorDashPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorDashPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoorDashPractice";
+			};
+			name = Release;
+		};
+		2DFFADD82BA9262D0093D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKB32CN29K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.DoorDashPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoorDashPractice;
+			};
+			name = Debug;
+		};
+		2DFFADD92BA9262D0093D973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKB32CN29K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.DoorDashPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoorDashPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DFFADA82BA9262C0093D973 /* Build configuration list for PBXProject "DoorDashPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFFADCF2BA9262D0093D973 /* Debug */,
+				2DFFADD02BA9262D0093D973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFFADD12BA9262D0093D973 /* Build configuration list for PBXNativeTarget "DoorDashPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFFADD22BA9262D0093D973 /* Debug */,
+				2DFFADD32BA9262D0093D973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFFADD42BA9262D0093D973 /* Build configuration list for PBXNativeTarget "DoorDashPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFFADD52BA9262D0093D973 /* Debug */,
+				2DFFADD62BA9262D0093D973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFFADD72BA9262D0093D973 /* Build configuration list for PBXNativeTarget "DoorDashPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFFADD82BA9262D0093D973 /* Debug */,
+				2DFFADD92BA9262D0093D973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DFFADA52BA9262C0093D973 /* Project object */;
+}
